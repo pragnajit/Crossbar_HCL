@@ -1,0 +1,85 @@
+Directory Structure
+RegFile
+|
+|---README
+|
+|---RF_TypeDefs.h, RF_event.h, RegFileUser.h, RegFile.h, RegField.h
+|
+|---RegFile.cpp, RegFileUser.cpp
+|
+|---lib
+|   |
+|   |---libRegFile.a
+|
+|---Tests
+|   |
+|   |---Main.cpp, Makefile, Makefile.defs, README
+|   |
+|   |---RegTables
+|   |   |
+|   |   |---RegTable_1.h, RegTable_2.h, RegTable_3.h
+|   |   |   RegTable_4.h, RegTable_5.h, RegTable_7_error_case.h,
+|   |   |   RegTable_8_error_case.h, RegTable_reset.h
+|   |
+|   |---TestBenches
+|   |   |
+|   |   |---alias_1_reg
+|   |   |   |
+|   |   |   |---TestBench
+|   |   |   |   |
+|   |   |   |   |---TestBench.h, TestBench.cpp
+|   |   |      
+|   |   |---alias_all_reg (Same as above)
+|   |   |   
+|   |   |---alias_field_real_reg (Same as above)
+|   |   |
+|   |   |---alias_reg_real_field (Same as above)
+|   |   |
+|   |   |---alias_hier_same_level (Same as above)
+|   |   |
+|   |   |---alias_hier_diff_level (Same as above)
+|   |   |   
+|   |   |---events_no_callback (Same as above)
+|   |   |
+|   |   |---callback_no_events (Same as above)
+|   |   |
+|   |   |---events_callback (Same as above)
+|   |   |
+|   |   |---error_case (Same as above)
+|   |   |
+|   |   |---max_case (Same as above)
+|   |   |
+|   |   |---no_callback_no_event_checking
+|   |   |   |
+|   |   |   |---RegTable1
+|   |   |   |   |
+|   |   |   |   |---TestBench
+|   |   |   |   |   |
+|   |   |   |   |   |---TestBench.h, TestBench.cpp
+|   |   |   |
+|   |   |   |---RegTable2 (Same as above)
+|   |   |   |
+|   |   |   |---RegTable3 (Same as above)
+|   |   |   |
+|   |   |   |---RegTable4 (Same as above)
+|   |   |   |
+|   |   |   |---RegTable5 (Same as above)
+|   |
+|   |---log_gold
+|   |   |
+|   |   |---error_messages.log, max_case.log, reset_case.log
+|   |   |
+|   |   |---data_logs
+|   |   |   (contains data logfiles of all test cases)
+|   |   |
+|   |   |---event_counts
+|   |   |   (contains event count logfiles of all testcases)
+|   |   |
+|   |   |---event_counts_aliases
+|   |   |   (contains event counts of alias regfiles 
+|   |   |   of alias test cases)
+|   |   |
+| 
+|---CVS
+|   (only the *.h and *.cpp files present in the current
+|    directory have been put in cvs)
