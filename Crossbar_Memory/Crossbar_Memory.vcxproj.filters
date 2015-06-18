@@ -21,9 +21,6 @@
     <ClInclude Include="RRAM_DIMMController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\RegFile_sourcecode\RegField.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\RegFile_sourcecode\RegFile.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
@@ -34,6 +31,9 @@
       <Filter>Resource Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\RegFile_sourcecode\RF_TypeDefs.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RegFile_sourcecode\RegField.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
   </ItemGroup>
