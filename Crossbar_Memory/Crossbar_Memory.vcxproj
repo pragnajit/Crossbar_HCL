@@ -67,12 +67,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\RegFile_sourcecode\RegField.h" />
+    <ClInclude Include="..\..\RegFile_sourcecode\RegFile.h" />
+    <ClInclude Include="..\..\RegFile_sourcecode\RegFileUser.h" />
+    <ClInclude Include="..\..\RegFile_sourcecode\RF_event.h" />
+    <ClInclude Include="..\..\RegFile_sourcecode\RF_TypeDefs.h" />
     <ClInclude Include="DDR3_MemController.h" />
     <ClInclude Include="RRAM_DIMMController.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\RegFile_sourcecode\RegFile.cpp" />
+    <ClCompile Include="..\..\RegFile_sourcecode\RegFileUser.cpp" />
     <ClCompile Include="DDR3_MemController.cpp" />
     <ClCompile Include="RRAM_DIMMController.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\RegFile_sourcecode\README" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
